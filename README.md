@@ -1,19 +1,25 @@
-# {{REPO_NAME}}
+# OOP 2: Hello C and Python
 
-- **PowerPoint slideshow**: `{{REPO_NAME}}.pptx`
-- **questions.docx** – `Indeholder spørgsmål som i får i forbindelsen med forlæsningen.`
-- **Lecture specific files** - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
+- **Lecture specific files**: files/* - `En mappe som indeholder filer i skal bruge i forbindelse med forlæsningen.`
 ---
 
 ## ​ Usage
 
-To use this template:
-
-1. Click **Use this template** on GitHub to create a new repo.
-2. Clone it locally:
    ```bash
-   git clone https://github.com/you/{{REPO_NAME}}.git
-   cd {{REPO_NAME}}
+   cd ~
+   git clone https://github.com/AAU-ST2-Programming/oop_2.git
+   cd oop_2
+  ```
+## Forberedelse
+
+
+
+## Lektions Fokus
+- History description
+- Describe the differences between python and C
+- Run through all the buildin functions for python
+- Setup virtual environment
+
 
 ## Forberedelse
 
