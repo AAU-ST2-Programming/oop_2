@@ -131,7 +131,7 @@ def generate_units(n=10):
 
 
 def df_1(N: int = 3):
-    return pd.DataFrame({"hej": [i for i in range(N)]})
+    return pd.DataFrame({"hej": [int(random.random() * 100) for _ in range(N)]})
 
 
 def df_2(N: int = 3):
