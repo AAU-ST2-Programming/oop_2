@@ -4,19 +4,19 @@ import random
 import pandas as pd
 from faker import Faker
 
-fake = Faker(["da_DK"])
 
 
 def generate_patient():
     """Generate a random patient with medical data."""
-
+    
+    fake = Faker(["da_DK"])
     # Generate BP (Systolic: 90-180, Diastolic: 60-110)
     systolic_bp = random.randint(90, 180)
     diastolic_bp = random.randint(60, 110)
 
     # Generate EF% (Ejection Fraction: 20% - 70%)
     ef = random.randint(20, 70)
-
+    
     return {
         "Name": fake.name(),
         "DOB": fake.date_of_birth(),
@@ -26,9 +26,41 @@ def generate_patient():
     }
 
 
+def generate_person():
+    """
+    Generate a person with name, gender, height (cm), and weight (kg).
+    """
+    fake = Faker()
+    gender = random.choice(["male", "female"])
+
+    if gender == "male":
+        name = fake.name_male()
+        height_cm = random.gauss(178, 7)
+        weight_kg = random.gauss(78, 10)
+
+    else:
+        name = fake.name_female()
+        height_cm = random.gauss(165, 6)
+        weight_kg = random.gauss(65, 8)
+
+    # Clamp to reasonable ranges
+    height_m = round(max(140, min(height_cm, 210)), 1) / 100.0
+    weight_kg = round(max(40, min(weight_kg, 150)), 1)
+    bmi = round(weight_kg / height_m / height_m,1)
+    if random.randint(0, 99)>95:
+        weight_kg = weight_kg + round(random.choice([random.gauss(10,1), random.gauss(-10,1)]),1)
+    return {
+        "name": name,
+        "gender": gender,
+        "height_m": height_m,
+        "weight_kg": weight_kg,
+        "bmi": bmi 
+    }
+
 def generate_patient_wide():
     """Generate a random patient with medical data."""
-
+    fake = Faker(["da_DK"])
+    
     return {
         "Name": fake.name(),
         "DOB": fake.date_of_birth(minimum_age=10),
@@ -57,12 +89,12 @@ def generate_patients_wider_df(n=10):
     return pd.DataFrame(patients)
 
 
-fake = Faker()
 
 
 class GameUnit:
     """A class representing a military unit in an RTS game."""
 
+    fake = Faker()
     UNIT_TYPES = ["Infantry", "Tank", "Aircraft", "Mech", "Artillery", "Naval"]
 
     def __init__(
@@ -144,3 +176,15 @@ def df_3(N: int = 3):
 
 def df_4(N: int = 3):
     return generate_patients_wider_df(N)
+
+
+if "__main__" == __name__:
+    pers = []
+    for i in range(199):
+        p = generate_person()
+        pers.append(p)        
+        
+    df: pd.DataFrame = pd.DataFrame((pers))
+    
+    print(df)
+    df.to_csv("exercise_people1.csv", index=False)
