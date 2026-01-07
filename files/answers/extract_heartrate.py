@@ -31,14 +31,14 @@ class HeartRateData:
 
         return (heartrates, timestamps)
 
-
-signal = HeartRateData("files/data_1_rows.csv", fs=300.0)
-heartrates, timestamps = signal.extract_heartrate(thr=0.6)
-plt.subplot(2, 1, 1)
-plt.plot(np.linspace(0, len(signal.data) / signal.fs, len(signal.data)), signal.data)
-plt.subplot(2, 1, 2)
-plt.plot(timestamps, heartrates)
-plt.xlabel("Time (s)")
-plt.ylabel("Heart Rate (bpm)")
-plt.title("Heart Rate Over Time")
-plt.show()
+if __name__ == "__main__":
+    signal = HeartRateData("files/data_1_rows.csv", fs=300.0)
+    heartrates, timestamps = signal.extract_heartrate(thr=0.6)
+    plt.subplot(2, 1, 1)
+    plt.plot(np.linspace(0, len(signal.data) / signal.fs, len(signal.data)), signal.data)
+    plt.subplot(2, 1, 2)
+    plt.plot(timestamps, heartrates)
+    plt.xlabel("Time (s)")
+    plt.ylabel("Heart Rate (bpm)")
+    plt.title("Heart Rate Over Time")
+    plt.show()
