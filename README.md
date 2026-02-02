@@ -11,7 +11,7 @@ Følg denne guide nøje for at være klar til undervisningen:
 ### 1. Literatur
 
 **Primær litteratur:**
-- [Think Python, 2nd Edition af Allen B. Downey (online bog)](https://allendowney.github.io/ThinkPython/)
+- [Think Python (online bog)](https://allendowney.github.io/ThinkPython/)
   - **Kapitel 15: Klasser og objekter**  
     Introduktion til hvordan man definerer egne klasser og arbejder med objekter i Python.
   - **Kapitel 16: Objektorienteret programmering**  
@@ -19,6 +19,8 @@ Følg denne guide nøje for at være klar til undervisningen:
   - **Kapitel 17: Klasser og funktioner**  
     Hvordan man bruger funktioner sammen med klasser og objekter.
   - (Evt. genlæs kapitel 10 om lister og kapitel 12 om tuples, hvis du har brug for repetition.)
+- [Python for Everybody af Charles Severance (PDF)](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
+  - Kapitel 8: Lister og iteration
 
 **Supplerende litteratur:**
 - [Python - Classes and Objects (Tutorialspoint)](https://www.tutorialspoint.com/python/python_classes_objects.htm)
