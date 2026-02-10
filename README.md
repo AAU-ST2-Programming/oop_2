@@ -1,4 +1,4 @@
-# OOP 2: Objekter, indkapsling og samspil
+# Objekter, indkapsling, interaktion
 
 - **Lecture specific files**: files/* - `En mappe med filer til øvelser og eksempler fra undervisningen.`
 
@@ -42,11 +42,12 @@ Følg denne guide nøje for at være klar til undervisningen:
   - `Python`
   - `C/C++`
   - `jupyter`
-- Download eller opdater materialet:
-  ```bash
-  cd ~/ST2-AnvendtProgrammering/oop_2
-  git pull
-  ```
+
+**Download eller opdater materialet:**  
+> ```zsh
+>  cd ~/ST2-AnvendtProgrammering/oop_2
+>  git pull
+>  ```
 
 ---
 
