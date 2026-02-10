@@ -21,6 +21,12 @@ Følg denne guide nøje for at være klar til undervisningen:
   - (Evt. genlæs kapitel 10 om lister og kapitel 12 om tuples, hvis du har brug for repetition.)
 - [Python for Everybody af Charles Severance (PDF)](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
   - Kapitel 8: Lister og iteration
+- https://www.geeksforgeeks.org/python/dunder-magic-methods-python/
+  - dunder methods er alle metoder som gør noget ala __xxxx__, altså 2 __ både før og efter metoden.
+- https://www.geeksforgeeks.org/python/__init__-in-python/
+- https://docs.python.org/3/reference/datamodel.html#object.__init__
+
+
 
 **Supplerende litteratur:**
 - [Python - Classes and Objects (Tutorialspoint)](https://www.tutorialspoint.com/python/python_classes_objects.htm)
