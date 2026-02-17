@@ -1,0 +1,1 @@
+# Lav funktion der beder mig om at intaste et tal
