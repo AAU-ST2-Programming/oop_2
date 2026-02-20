@@ -26,6 +26,13 @@ Følg denne guide nøje for at være klar til undervisningen:
 - https://www.geeksforgeeks.org/python/__init__-in-python/
 - https://docs.python.org/3/reference/datamodel.html#object.__init__
 
+**Til Flowcharts of class diagrammer:**  
+Her er der 2 muligheder. Jeg bruger personligt `Mermaid` idag. 
+Men jeg startede med `DrawIO` hjemmesiden.
+- [Mermaid](https://pypi.org/project/mermaid-py/)
+  - [Flowcharts](https://mermaid.js.org/syntax/flowchart.html)
+  - [Class Diagrams](https://mermaid.js.org/syntax/classDiagram.html)
+- [Draw IO](https://app.diagrams.net/)
 
 
 **Supplerende litteratur:**
@@ -33,6 +40,8 @@ Følg denne guide nøje for at være klar til undervisningen:
 - [Python - Object Oriented (Tutorialspoint)](https://www.tutorialspoint.com/python/python_classes_objects.htm)
 
 **Formål:** Forstå hvordan objekter, tilstand og indkapsling fungerer i Python.
+
+
 
 ---
 
