@@ -41,4 +41,4 @@
 *.dwo
 files/__pycache__/*
 
-*-checkpoint.*
+*-checkpoint*
