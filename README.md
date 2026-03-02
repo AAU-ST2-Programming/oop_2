@@ -11,7 +11,7 @@ Følg denne guide nøje for at være klar til undervisningen:
 ### 1. Literatur
 
 **Primær litteratur:**
-- [Think Python (online bog)](https://allendowney.github.io/ThinkPython/)
+- [Think Python, 3rd Edition af Allen B. Downey (online bog) ](https://allendowney.github.io/ThinkPython/)
   - **Kapitel 15: Klasser og objekter**  
     Introduktion til hvordan man definerer egne klasser og arbejder med objekter i Python.
   - **Kapitel 16: Objektorienteret programmering**  
