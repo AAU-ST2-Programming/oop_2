@@ -54,7 +54,8 @@ Men jeg startede med `DrawIO` hjemmesiden.
 
 **Download eller opdater materialet:**  
 > ```zsh
->  cd ~/ST2-AnvendtProgrammering/oop_2
+>  git clone https://github.com/AAU-ST2-Programming/oop_2.git
+>  cd oop_2
 >  git pull
 >  ```
 
