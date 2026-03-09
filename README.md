@@ -12,19 +12,14 @@ Følg denne guide nøje for at være klar til undervisningen:
 
 **Primær litteratur:**
 - [Think Python, 3rd Edition af Allen B. Downey (online bog) ](https://allendowney.github.io/ThinkPython/)
-  - **Kapitel 15: Klasser og objekter**  
+  - **Kapitel 15: Klasser og methods**  
     Introduktion til hvordan man definerer egne klasser og arbejder med objekter i Python.
-  - **Kapitel 16: Objektorienteret programmering**  
+  - **Kapitel 16: Klasser og objekter**  
     Gennemgang af begreber som indkapsling, metoder og samspil mellem objekter.
-  - **Kapitel 17: Klasser og funktioner**  
-    Hvordan man bruger funktioner sammen med klasser og objekter.
-  - (Evt. genlæs kapitel 10 om lister og kapitel 12 om tuples, hvis du har brug for repetition.)
-- [Python for Everybody af Charles Severance (PDF)](https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf)
-  - Kapitel 8: Lister og iteration
 - https://www.geeksforgeeks.org/python/dunder-magic-methods-python/
   - dunder methods er alle metoder som gør noget ala __xxxx__, altså 2 __ både før og efter metoden.
-- https://www.geeksforgeeks.org/python/__init__-in-python/
-- https://docs.python.org/3/reference/datamodel.html#object.__init__
+    - https://www.geeksforgeeks.org/python/__init__-in-python/
+    - https://docs.python.org/3/reference/datamodel.html#object.__init__
 
 **Til Flowcharts of class diagrammer:**  
 Her er der 2 muligheder. Jeg bruger personligt `Mermaid` idag. 
