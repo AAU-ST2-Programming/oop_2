@@ -20,6 +20,7 @@ Følg denne guide nøje for at være klar til undervisningen:
   - dunder methods er alle metoder som gør noget ala __xxxx__, altså 2 __ både før og efter metoden.
     - https://www.geeksforgeeks.org/python/__init__-in-python/
     - https://docs.python.org/3/reference/datamodel.html#object.__init__
+    
 
 **Til Flowcharts of class diagrammer:**  
 Her er der 2 muligheder. Jeg bruger personligt `Mermaid` idag. 
